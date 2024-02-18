@@ -1,10 +1,11 @@
-import Gerente from './pages/Gerente'
-
+import Grafil from "./pages/Grafil"
 function App() {
 
   return (
     <>
-        <Gerente />
+        <Grafil />
+       
+    
     </>
   )
 }
