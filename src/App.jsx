@@ -1,10 +1,10 @@
-import Gerente from './pages/Gerente'
+import Tapang from './pages/Tapang'
 
 function App() {
 
   return (
     <>
-        <Gerente />
+        <Tapang />
     </>
   )
 }
