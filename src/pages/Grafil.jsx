@@ -10,7 +10,6 @@ function Grafil() {
     return (
         <>
             <Navbar />
-
             <Home />
             <About />
             <Portfolio />
