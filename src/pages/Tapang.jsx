@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import About from '../images/about.jpg'
 import { FaComputer } from "react-icons/fa6";
 
+
 const Tapang = () => {
     return (
         <>
@@ -12,11 +13,10 @@ const Tapang = () => {
                     <h1 className='text-2xl font-medium text-white'>Marcus Tapang</h1>
                 <div>
                     <ul className='list-none flex space-x-5 text-xl text-white'>
-                        <li className='cursor-pointer hover:border-b-2'>Home</li>
-                        <li className='cursor-pointer hover:border-b-2'>About</li>
-                        <li className='cursor-pointer hover:border-b-2'>Services</li>
-                        <li className='cursor-pointer hover:border-b-2'>Portfolio</li>
-                        <li className='cursor-pointer hover:border-b-2'>Contact</li>
+                        <li className='cursor-pointer hover:border-b-2'><a href="#Home">Home</a></li>
+                        <li className='cursor-pointer hover:border-b-2'><a href="#About">About</a></li>
+                        <li className='cursor-pointer hover:border-b-2'><a href="#Services">Services</a></li>
+                        <li className='cursor-pointer hover:border-b-2'><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
                 </div>
@@ -24,7 +24,7 @@ const Tapang = () => {
             </header>
             <div className='h-screen w-full bg-black'>
             
-            <div className='container mx-auto text-gray-200 h-full flex flex-col justify-center items-start pl-10'>
+            <div id="Home" className='container mx-auto text-gray-200 h-full flex flex-col justify-center items-start pl-10'>
                 <div className=' flex items-center justify-around w-full'>
                     <div className='mb-10'>
                         <p className='text-2xl mb-3'>Hello, My name is</p>
@@ -38,13 +38,13 @@ const Tapang = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={TapangBG} alt="BG" className='h-[800px]' />
+                        <img src={TapangBG} alt="BG" className='h-[600px]' />
                     </div>
                 </div>
             </div>
             </div>
             {/* About Me */}
-            <div className='py-16 container mx-auto'>
+            <div id="About" className='py-16 container mx-auto'>
                 <p className='text-sm text-center'>My History</p>
                 <h1 className='text-5xl text-center'>About Me</h1>
                 <div className='flex pt-10 justify-between'>
@@ -71,7 +71,7 @@ const Tapang = () => {
                 </div>
             </div>
             {/* Services */}
-            <div className='mt-10 container mx-auto'>
+            <div id="Services" className='mt-10 container mx-auto'>
                 <p className='text-sm text-center'>What I Offer</p>
                 <h1 className='text-5xl text-center'>Services</h1>
                 <div className='flex justify-around gap-3 mt-10 mb-20'>
@@ -96,7 +96,7 @@ const Tapang = () => {
                 </div>
             </div>
             {/* Footer */}
-            <footer className='bg-[#000] text-gray-400 text-center py-10'>
+            <footer id="Contact" className='bg-[#000] text-gray-400 text-center py-10'>
                 <p className='text-4xl mb-4'>Marcus James Tapang</p>
                 <p className='text-xl mb-6'>I am Marcus James and this is my personal website, consult me here.</p>
                 <div className='flex justify-center space-x-14 mb-4'>
