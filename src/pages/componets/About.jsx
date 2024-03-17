@@ -10,17 +10,13 @@ const About = () => {
             border-gray-500">About</p>
         </div>
             <p className="text-xl mt-20">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet doloribus, <br />
-                 culpa aliquid harum sequi nesciunt excepturi perferendis blanditiis? Veniam tempora possimus itaque tenetur, alias quas laborum. <br />
-                  Culpa ab pariatur vitae officiis repudiandae deserunt fugit dolorum repellat non similique aut laudantium, explicabo totam accusamus, dicta sunt a vel facere in!
+            "Meet Javier Ezekiel, a software virtuoso whose passion for crafting elegant code is matched only by their relentless curiosity for emerging technologies.
+             With a knack for turning complex problems into streamlined solutions, Ezikel thrives in the dynamic realm of software development. 
+             Whether architecting robust back-end systems or designing intuitive user interfaces, their dedication to excellence shines through in every line of code. 
+             Beyond the screen, Ezikel is a collaborator at heart, adept at translating client visions into digital realities. With a commitment to continuous learning and a creative approach to problem-solving, 
+             Is not just a developer but a visionary shaping the future of tech, one line of code at a time."
             </p>
             <br />
-
-            <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ea eligendi laborum necessitatibus error quisquam totam voluptas assumenda provident harum quo eum, rem repellendus non a!
-                 Iure ducimus, tempora aliquid ullam dolores labore magni asperiores voluptatum atque, minus tenetur corporis! <br />
-                 Exercitationem explicabo a suscipit corrupti pariatur cumque, impedit quisquam accusantium!
-            </p>
     </div>
 
   </div>

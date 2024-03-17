@@ -3,7 +3,7 @@ import Home from "./componets/Home";
 import SocialLinks from "./componets/SocialLinks";
 import  About  from "./componets/About";
 import Portfolio from "./componets/Portfolio";
-import Experience from "./componets/Experience";
+import Skills from "./componets/Skills";
 import Contact from "./componets/Contact";
 function Grafil() {
 
@@ -13,7 +13,7 @@ function Grafil() {
             <Home />
             <About />
             <Portfolio />
-            <Experience />
+            <Skills />
             <Contact />
 
             <SocialLinks />
