@@ -34,7 +34,7 @@ body {
     padding: 40px;
     display: flex; /* Added */
     flex-direction: column;
-    align-items: start; /* Added */
+    align-items: flex-start; /* Added */
 }
 
 .profileText {

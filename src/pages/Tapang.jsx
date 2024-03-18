@@ -83,7 +83,6 @@ const Tapang = () => {
                     </div>
                     <div className=' py-10 px-5 flex flex-col justify-center items-center text-center rounded-lg shadow-2xl'>
                         <FaComputer size={50}/>
-                        <p className='text-3xl mb-4 font-medium'>Web Development</p>
                         <p className='mb-4 text-xl'>Service that i offer and work, with years of experience in the work area</p>
                         <button className='bg-blue-800 text-gray-300 px-2 py-2 text-lg rounded-lg'>Know More</button>
                     </div>

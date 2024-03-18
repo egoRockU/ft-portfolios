@@ -1,10 +1,10 @@
-import Tapang from './pages/Tapang'
-
+// import Tapang from './pages/Tapang'
+import Resume from './pages/resume'
 function App() {
 
   return (
     <>
-        <Tapang />
+        <Resume/>
     </>
   )
 }

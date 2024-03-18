@@ -1,5 +1,5 @@
 
-const resume = () => {
+const Resume = () => {
   return (
     <div>
       
@@ -157,4 +157,4 @@ const resume = () => {
   )
 }
 
-export default resume
+export default Resume
