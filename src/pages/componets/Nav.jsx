@@ -33,7 +33,7 @@ const Nav = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 font-semibold text-black bg-white fixed z-40 shadow-lg">
 
         <div className='cursor-pointer' >
-            <h1 className="text-5xl ml-2">
+            <h1 className="ml-2 sm:text-4xl md:text-5xl">
                 Logo
             </h1>
         </div>
